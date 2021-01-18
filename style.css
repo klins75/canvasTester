@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0 0;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+/* ---------------------- */
+.c1 {
+  height: 100%;
+  width: 20%;
+}
+
+.c2 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 79%;
+  background-color: green;
+}
+
+.c3 {
+  height: 100%;
+  width: 1%;
+  background-color: black;
+}
+
+/* ------------------------------ */
+
+/* COLUMN ONE  */
+
+#log-panel {
+  height: 100%;
+  width: 100%;
+	border: 8px inset darkgray;
+	display: flex; flex-direction: column;
+}
+
+.stat-display {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.stat-display-tag {
+	position: relative;
+	top: 0; left: 0;
+	height: 25px; width: 25px;
+	border: 1px solid gray;
+	background-color:black;
+	color: white;
+	text-align:center;
+}
+
+.stat-display-key {
+  height: 100%;
+  width: 50%;
+  background-color: rgb(56, 56, 56);
+  border: 1px solid #888;
+  color: #fff;
+  text-align: left;
+  font-family: monospace;
+  font-size: 1.5rem;
+}
+
+.stat-display-info {
+  height: 100%;
+  width: 50%;
+  background-color: #ddd;
+  border: 1px solid #888;
+  text-align: center;
+  font-family: monospace;
+  font-size: 1.5rem;
+}
+
+
+/* COLUMN TWO */
+
+.canvas {
+	width: 100%; height: 67%;
+	background-color: rgb(0, 36, 0);
+}
+
+.control {
+	width: 100%; height: 33%;
+	background-color: rgb(92, 20, 20);
+  border: 8px inset darkgray;
+  display: flex; flex-direction: column;
+}
+
+/* ------------------------------ */
+canvas {
+	border: 4px inset darkgray;
+	margin-top: 15px;
+}
+
+/* ------------------------------------ */
+
+#controls-banner {
+  height: 10%; width: 100%;
+  background-color: gray;
+}
+
+#controls {
+  height: 90%; width: 100%;
+  display: flex; flex-direction: row;
+}
+
+.control-unit {
+  height: 50%; width: 50px;
+  background-color: black;
+  border: 2px inset silver;
+  display: flex;
+  flex-direction: column;
+}
+
+.control-legend {
+  height: 10%; width: 100%;
+  font: 10px monospace;
+  color: white;
+  text-align:center;
+  padding-top: 4px;
+}
+
+.control-unit-canvas {
+  margin:0; padding: 0;
+}
+
+
+
+
+
