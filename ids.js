@@ -41,6 +41,8 @@ const sdInfo12 = document.getElementById("stat-display-info12");
 const sdKey13 = document.getElementById("stat-display-key13");
 const sdInfo13 = document.getElementById("stat-display-info13");
 
+const logPanel = document.querySelector('#log-panel');
+
 const log = console.log;
 
 // time
@@ -54,15 +56,9 @@ let GRID_BG_COLOR = "white";
 let GRID_CL_COLOR = "#f00";
 let GRID_LEGEND_COLOR = "#00f";
 
-// let GRID_HL_COLOR = {
-//   r: 0,
-//   g: 0,
-//   b: 255,
-//   a: 1,
-// };
+let targetCircle;
 
-// controls the mask intensity actually
-// let GRID_INTENSITY = 0;
+let allTheThings = [];
 
 // control panel
 const dial01GridIntensity = document.querySelector("#dial01");
